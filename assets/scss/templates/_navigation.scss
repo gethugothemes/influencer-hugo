@@ -1,0 +1,130 @@
+
+/*-------------------
+   MENU
+----------------------*/
+
+.main-navigation{
+    z-index: 9999;
+    padding: 10px 0px;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+    font-weight: 700;
+    color: #051441 !important;
+    text-transform: capitalize;
+}
+
+
+.navbar-nav .nav-link.active{
+    color: $primary-color!important;
+}
+
+
+.navbar {
+    position: relative;
+    padding: 1rem 1rem;
+}
+
+.fixed-top {
+    position: fixed;
+    z-index: 1030;
+    right: 0;
+    left: 0;
+}
+
+
+
+.navbar-toggler-icon {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    content: "";
+    vertical-align: middle;
+    background: no-repeat 50%;
+    background-size: 100% 100%
+}
+
+
+
+.nav-item.dropdown {
+    .dropdown-menu{
+        -webkit-transition: all 300ms ease;
+        -o-transition:all 300ms ease;
+        transition: all 300ms ease;
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        top: 120%;
+        -webkit-box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+        box-shadow: 2px 2px 5px 1px rgba(0,0,0,0.05),-2px 0px 5px 1px rgba(0,0,0,0.05);
+        border: 0px;
+        padding: 0px;
+        position: absolute;
+    }
+    &:hover .dropdown-menu{
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+    }
+}
+
+
+
+
+/*-------------------
+  DROPDOWN MENU
+----------------------*/
+
+
+.dropdown-menu {
+    opacity: 0
+}
+
+.dropdown-menu.show {
+    animation: .2s forwards b;
+}
+
+@keyframes b {
+    to {
+        opacity: 1
+    }
+}
+
+.dropdown-item {
+    font-size: .6875rem;
+    font-weight: 500;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    transition: background-color .1s;
+    text-transform: uppercase;
+
+    &:hover {
+        color:$light;
+        text-decoration: none;
+        background-color: $primary-color;
+
+    }
+}
+
+
+.header-white {
+    background: $light;
+    -webkit-transition: .0s all ease;
+    -o-transition: .0s all ease;
+    transition: .0s all ease;
+}
+
+
+
+@include mobile{
+    .fixed-top.site-header{
+        background: $light;
+    }
+}
+
+.navbar-collapse.collapse.show{
+     background: $light;
+     padding: 30px 0px;
+}

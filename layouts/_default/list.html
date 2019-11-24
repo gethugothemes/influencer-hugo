@@ -1,0 +1,35 @@
+{{ define "main" }}
+
+{{ partial "page-title.html" . }}
+
+<section class="section blog-wrap border-bottom">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8">
+        <div class="row">
+          {{ $paginator := .Paginate (where .Data.Pages "Type" "post") }}
+          {{ range $paginator.Pages }}
+          <div class="col-sm-6">
+            <div class="blog-item card mb-4 mb-lg-0 border-0">
+              <img src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}" class="img-fluid w-100">
+              <div class="blog-item-content p-4">
+                <div class="blog-meta mb-2">
+                  <span><i class="ti-time mr-2"></i>{{ .PublishDate.Format "January 02, 2006" }}</span> by
+                  {{ .Params.Author }}
+                </div>
+                <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        <div class="pagination mt-5 pt-4">
+          {{ template "_internal/pagination.html" . }}
+        </div>
+      </div>
+      {{ partial "sidebar.html" . }}
+    </div>
+  </div>
+</section>
+
+{{ end }}

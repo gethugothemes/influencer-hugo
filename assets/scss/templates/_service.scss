@@ -1,0 +1,23 @@
+.service-block{
+	padding: 60px 40px;
+	text-align: center;
+	border-radius: 40px;
+	box-shadow: 12px 7px 90px 0 rgba(110,123,131,.1);
+	 -webkit-transition: all 0.3s ease-in-out;
+       -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+         -o-transition: all 0.3s ease-in-out;
+            transition: all 0.3s ease-in-out;
+
+
+	&:hover{
+		background: $light;
+		
+	}
+
+	i{
+		font-size: 60px;
+	}
+
+}
+

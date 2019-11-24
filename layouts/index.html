@@ -1,0 +1,398 @@
+{{ define "main" }}
+
+<!-- Banner -->
+{{ if .Site.Data.homepage.banner.enable }}
+{{ with .Site.Data.homepage.banner }}
+<section class="banner-main py-7" id="banner">
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="col-lg-7 col-md-8">
+        <div class="main-banner">
+          <span class="text-color font-weight-bold">{{ .writter | markdownify }}</span>
+          <h1 class="mb-3 mt-2">{{ .title | markdownify }}</h1>
+
+          <div class="mb-4">
+            <h4>Price :- <span class="text-color">${{ .price }}</span></h4>
+          </div>
+          <p class="mb-4">{{ .content | markdownify }}</p>
+          <button class="snipcart-add-item btn btn-main mt-2" data-item-id="1"
+          data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
+          Purchase now <i class="ti-angle-right ml-3"></i>
+        </button>
+        </div>
+      </div>
+
+      {{ if .image }}
+      <div class="col-lg-5 d-none d-lg-block">
+        <div class="banner-img pt-5">
+          <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Book preview -->
+{{ if .Site.Data.homepage.preview.enable }}
+{{ with .Site.Data.homepage.preview }}
+<section class="setcion" id="book">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-5">
+        <div class="book-preview">
+          <img src="{{`images/about/kindle.png` | relURL}}" class="background-device img-fluid" alt="device">
+          <div class="book-pages">
+            {{ range .pagePreview }}
+            <div class="item">
+              <img src="{{ .image | relURL }}" alt="page-preview" class="img-fluid">
+              <div class="overlay">
+                <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview"><i
+                    class="ti-fullscreen"></i></a>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="section-heading book-info mt-5 mt-lg-0">
+          <h2 class="text-lg mb-4">{{ .title | markdownify }}</h2>
+          {{ .content | markdownify }}
+
+          <ul class="list-unstyled mt-4 mb-5">
+            {{ range .inside }}
+            <li><i class="ti-check mr-3"></i> {{ .insideItem | markdownify }}</li>
+            {{ end }}
+          </ul>
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!--Services -->
+{{ if .Site.Data.homepage.service.enable }}
+{{ with .Site.Data.homepage.service }}
+<section class="pt-4 section-bottom" id="service">
+  <div class="container">
+    <div class="row align-items-center">
+      {{ range .serviceItem }}
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="service-block mb-4 mb-lg-0">
+          <i class="{{ .icon }} text-danger"></i>
+          <h4 class="mb-3 mt-4">{{ .title | markdownify }}</h4>
+          <p class="mb-0">{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Quote -->
+{{ if .Site.Data.homepage.quote.enable }}
+{{ with .Site.Data.homepage.quote }}
+<section class="section bg-grey" id="quote">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="text-center">
+          <blockquote class="blockquote">
+            <h2 class="text-lg">"{{ .quote | markdownify }}"</h2>
+            {{ if .quoteBy }}
+            <footer class="blockquote-footer h5 text-color mt-4">{{ .quoteBy }}</footer>
+            {{ end }}
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Chapter -->
+{{ if .Site.Data.homepage.chapters.enable }}
+{{ with .Site.Data.homepage.chapters }}
+<section class="section chapter" id="chapter">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="section-heading">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .chapter }}
+      <div class="col-sm-6">
+        <div class="chapter-item">
+          <h4>{{ .title | markdownify }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Review-->
+{{ if .Site.Data.homepage.reviews.enable }}
+{{ with .Site.Data.homepage.reviews }}
+<section class="section-bottom testimonial" id="review">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6 col-md-12">
+        <div class="section-heading text-center">
+          <h2 class="mb-3 text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row align-items-center">
+      <div class="col-lg-12 col-sm-12 col-md-12 testimonial-wrap">
+        {{ range .review}}
+        <div class="test-item">
+          <div class="testimonial-item-content">
+            <div class="test-author-thumb mb-4">
+              <img src="{{ .image | relURL }}" alt="Testimonial author" class="img-fluid">
+              <div class="test-author-info mt-4">
+                <ul class="rating list-inline mb-0 {{ .rating }}">
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                  <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
+                </ul>
+                <h4 class="mb-0 mt-2">{{ .name }}</h4>
+                <p>{{ .designation }}</p>
+              </div>
+            </div>
+            <p class="mb-0">{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Device feature -->
+{{ if .Site.Data.homepage.devices.enable }}
+{{ with .Site.Data.homepage.devices }}
+<section class="feature-home section" id="device">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-6 col-md-6">
+        <h2 class="mb-4">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+
+        {{ range .feature }}
+        <div class="feature-item d-flex mt-5 mb-3">
+          {{ if .icon }}
+          <div class="icon-block">
+            <i class="{{ .icon }}"></i>
+          </div>
+          {{ end }}
+          <div class="content">
+            <h5>{{ .title | markdownify }}</h5>
+            <p>{{ .content | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | safeURL }}" class="btn btn-main-2">{{ .label }} <i class="ti-angle-right ml-3"></i></a>
+        {{ end }}
+        {{ end }}
+      </div>
+
+      <div class="col-lg-6 col-md-6">
+        <div class="mt-5 mt-lg-0">
+          <img src="{{ .image | relURL }}" alt="" class="img-fluid w-100">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- About Author -->
+{{ if .Site.Data.homepage.author.enable }}
+{{ with .Site.Data.homepage.author }}
+<section class="about section" id="author">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-5">
+        <div class="about-img">
+          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid w-100">
+        </div>
+      </div>
+
+      <div class="col-lg-6">
+        <div class="author-info pl-4 mt-5 mt-lg-0">
+          <h2 class="text-lg">{{ .name }}</h2>
+          <p class="mb-4 lead">- {{ .designation }}</p>
+          {{ .content | markdownify }}
+
+          {{ if .signature }}
+          <img src="{{ .signature | relURL }}" alt="" class="img-fluid">
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Awards -->
+{{ if .Site.Data.homepage.awards.enable }}
+{{ with .Site.Data.homepage.awards }}
+<section id="clients-logo-section" class="section-top" id="awards">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="section-heading text-center">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .award }}
+      <div class="col-lg-3 col-sm-6">
+        <div class="award-block text-center p-4 border mb-4">
+          <h5 class="mb-3">{{ .title | markdownify }}</h5>
+          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Others books -->
+{{ if .Site.Data.homepage.otherBooks.enable }}
+{{ with .Site.Data.homepage.otherBooks }}
+<section class="section others-book" id="otherBooks">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .book }}
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="book-item mb-4 mb-lg-0">
+          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          <a href="{{ .link | safeURL }}" class="hover-item">
+            <i class="ti-link"></i>
+          </a>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- Latest blog -->
+{{ if .Site.Data.homepage.blog.enable }}
+<section class="section blog-home border-top" id="blog">
+  <div class="container">
+    {{ with .Site.Data.homepage.blog }}
+    <div class="row justify-content-center">
+      <div class="col-lg-6">
+        <div class="section-heading text-center">
+          <h2 class="text-lg mb-3">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+    <div class="row">
+      {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+      <div class="col-lg-4 col-md-6 col-sm-6">
+        <div class="blog-item card mb-4 mb-lg-0 border-0">
+          <img src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}" class="img-fluid w-100">
+          <div class="blog-item-content p-4">
+            <div class="blog-meta mb-2">
+              <span><i class="ti-time mr-2"></i>{{ .PublishDate.Format "January 02, 2006" }}</span> by
+              {{ .Params.Author }}
+            </div>
+            <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    <div class="text-center mt-5">
+      <a href="/blog" class="btn btn-main">All Post</a>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+<!-- Contact -->
+{{ if .Site.Data.homepage.contact.enable }}
+{{ with .Site.Data.homepage.contact }}
+<section class="section contact bg-grey" id="contact">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-12 col-lg-8">
+        <div class="section-heading text-center">
+          <h2 class="mb-2 text-lg">{{ .title | markdownify }}</h2>
+          <p>{{ .subtitle | markdownify }}</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      {{ range .contactItem }}
+      <div class="col-lg-4 col-sm-6">
+        <div class="contact-info-block text-center mb-4">
+          <i class="{{ .icon }}"></i>
+          <p class="mb-0">{{ .title | markdownify }}</p>
+          {{ range .list }}
+          <h5>{{ .listItem }}</h5>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ end }}

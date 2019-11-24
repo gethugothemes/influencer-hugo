@@ -1,0 +1,88 @@
+.blog-item {
+	box-shadow: 12px 7px 90px 0 rgba(110, 123, 131, 0.1);
+}
+
+.post-thumb-sm {
+	max-width: 80px;
+	height: auto;
+}
+
+.quote {
+	background: #eee;
+	padding: 40px;
+	color: #000;
+	font-size: 18px;
+	border-left: 4px solid $primary-color;
+}
+
+.share {
+	li {
+		a {
+			padding-right: 10px;
+			border-right: 1px solid rgba(0, 0, 0, 0.08);
+		}
+	}
+}
+
+.sidebar-widget {
+	&.category {
+		ul li {
+			padding: 12px 0px;
+			border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+		}
+	}
+
+	&.tags {
+		a {
+			display: inline-block;
+			padding: 4px 15px;
+			border: 1px solid rgba(0, 0, 0, 0.08);
+			margin-bottom: 4px;
+			color: #777;
+
+			&:hover {
+				background: $primary-color;
+				color: $light;
+			}
+		}
+	}
+}
+
+
+
+.pagination {
+	.page-item {
+		margin: 5px;
+
+		.page-link {
+			width: 40px;
+			height: 40px;
+			background: #f5f5f5;
+			display: inline-block;
+			text-align: center;
+			font-weight: 600;
+			padding-top: 8px;
+			font-size: 14px;
+			border: 0;
+			color: $black-lighter;
+
+			&:hover {
+				background: $primary-color;
+				color: $light;
+			}
+		}
+
+		&.active {
+			.page-link {
+				background: $primary-color;
+				color: $light;
+				border-color: $primary-color;
+			}
+		}
+	}
+
+	.page-item:first-child .page-link,
+	.page-item:last-child .page-link {
+		border-radius: 0;
+	}
+}

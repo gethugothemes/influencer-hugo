@@ -1,0 +1,113 @@
+######################## default configuration ####################
+baseURL = "https://examplesite.com"
+languageCode = "en-us"
+title = "Influencer"
+theme = "influencer-hugo"
+summaryLength = "10"
+paginate = 6
+
+############################# Plugins ##############################
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+  [[params.plugins.css]]
+  URL = "plugins/magnific-popup/magnific-popup.css"
+  
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/magnific-popup/magnific-popup.min.js"
+
+  
+############################## navigation ###############################
+[menu]
+    
+  [[menu.main]]
+  name = "About"
+  URL = "book"
+  weight = 2
+  
+  [[menu.main]]
+  name = "Chapter"
+  URL = "chapter"
+  weight = 3
+  
+  [[menu.main]]
+  name = "Reviews"
+  URL = "review"
+  weight = 4
+  
+  [[menu.main]]
+  name = "Author"
+  URL = "author"
+  weight = 5
+  
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight = 6
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight = 7
+
+
+#################### default parameters ################################
+[params]
+logo = ""
+home = "Home"
+# Meta data
+description = "This is meta description"
+author = "Themefisher"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# copyright
+copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
+
+  # Preloader
+  [params.preloader]
+  enable = true
+  preloader = "" # use .png , .svg or .gif format
+
+  # Navigation get start button
+  [params.navButton]
+  enable = true
+
+  
+############################# Footer ########################
+[params.footer]
+content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+
+############################# post share ###################
+[[params.share]]
+title = "facebook"
+icon = "ti-facebook" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "twitter"
+icon = "ti-twitter-alt" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "linkedin"
+icon = "ti-linkedin" # themify icon : https://themify.me/themify-icons
+link = "#"
+
+[[params.share]]
+title = "github"
+icon = "ti-github" # themify icon : https://themify.me/themify-icons
+link = "#"

@@ -1,0 +1,251 @@
+########################## Banner #############################
+banner:
+  enable : true
+  writter : "George Stewart"
+  title : "The Man in the <br>Glass House"
+  image : "images/about/book.png"
+  content : "We work with our partners to streamline project plans that don’t just deliver on
+            product perfection, but also delivers on time."
+  price : "14.99"
+
+######################## Book Preview ##########################
+preview:
+  enable : true
+  pagePreview:
+    # page preview loop
+    - image : "images/about/book_page.png"
+    - image : "images/about/book_page2.png"
+    - image : "images/about/book_page.png"
+
+  title : "Look Inside the book"
+  content : "
+  This lovely, well-written book is concerned with creating typography and is essential for professionals who regularly work for clients.
+
+
+  Dolor quam consectetur corrupti, dignissimos sequi. Nihil totam alias, ipsa facere quibusdam, modi accusamus quod quae quaerat.
+  "
+
+  inside:
+    # book inside item loop
+    - insideItem : "7 Chapter"
+    - insideItem : "Explained Details"
+    - insideItem : "Clear Understanding"
+    - insideItem : "Best practices"
+
+  # button
+  button:
+    enable : true
+    label : "Purchase on Amazon"
+    link : "#"
+
+
+########################## Service ##############################
+service:
+  enable : true
+  serviceItem:
+    # service item loop
+    - title : "Experience"
+      icon : "ti-microphone" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Marketing Goals"
+      icon : "ti-rocket" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+      
+    # service item loop
+    - title : "Targetting Vission"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      content : "Must explain to you how this denouncing praisig pain was give you explain to you how."
+
+
+######################### Quote #############################
+quote:
+  enable : true
+  quote: "It's simply the best guide to making money online ever released which only a fool would ignore."
+  quoteBy: "John Smith"
+
+
+######################### Chapters ##########################
+chapters:
+  enable : true
+  title : "Full Chapter Overview"
+  subtitle : "Libero atque veniam molestiae ipsa aliquid quam facilis dolore."
+  chapter:
+    # chapter preview loop
+    - title : "Chapter 1"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+    # chapter preview loop
+    - title : "Chapter 2"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 3"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 4"
+      content : "Calculating your cost of living, with an overview of NYC neighborhoods and average rent prices. Includes tips on when to move to NYC."
+      
+    # chapter preview loop
+    - title : "Chapter 5"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+      
+    # chapter preview loop
+    - title : "Chapter 6"
+      content : "Tips on scouting the city and making the most out of your three-month tourist visa."
+
+
+########################## Revews ###########################
+reviews:
+  enable : true
+  title : "What people are saying"
+  subtitle : "Amazing reviews illo tenetur laboriosam excepturi velit in, temporibus ab rem dicta sint obcaecati!"
+  review:
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Barrow Hasi"
+      image : "images/client/test-1.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "five" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+      
+    # review item loop
+    - name : "Nilam Arthur"
+      image : "images/client/test-2.jpg" # image size 80*80 px
+      designation : "Sunrise ten"
+      rating : "four" # rating from one to five
+      content : "Quas ut distinctio tenetur animi nihil rem, amet dolorum totam. Ab repudiandae tempore qui fugiat amet ipsa id omnis ipsam."
+
+
+#################################### device ################################
+devices:
+  enable : true
+  title : "Read it on your favorite device!"
+  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestiae quod, nobis repudiandae! In
+          commodi accusamus molestiae, sunt, tempora fugiat doloribus sint quisquam illo numquam corporis
+          tenetur necessitatibus expedita eius, sed."
+  image : "images/about/ipad.jpg"
+  feature:
+    # feature item loop
+    - title : "Take a sneak peak insight"
+      icon : "ti-bar-chart" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+      
+    # feature item loop
+    - title : "Reporting & Analysis"
+      icon : "ti-write" # themify icon pack : https://themify.me/themify-icons
+      content : "Sed laborum omnis earum facere culpa optio natus quaerat minus."
+
+
+  # button
+  button:
+    enable : true
+    label : "Purchase on amazon"
+    link : "#"
+
+######################################## author #############################
+author:
+  enable : true
+  image : "images/about/home-1.jpg"
+  name : "Yasin Arafat"
+  designation : "A technical Writer"
+  content : "
+  Do you want to be even more successful? Learn to love learn and growth. The more efort you put into improving your skills, the bigger the payoff you will get.
+
+
+  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."
+
+  # signature
+  siggnature : "images/about/2.png"
+
+
+################################ Awards #####################################
+awards:
+  enable : true
+  title : "We are award winner best selling book among the top rated 10 books!"
+  award:
+    # award item loop
+    - title : "International award"
+      image : "images/about/award-1.png"
+      
+    # award item loop
+    - title : "Meritorious award"
+      image : "images/about/award-2.png"
+      
+    # award item loop
+    - title : "Best book award"
+      image : "images/about/award-3.png"
+      
+    # award item loop
+    - title : "Excellence award"
+      image : "images/about/award-4.png"
+
+
+############################# Other books ###############################
+otherBooks:
+  enable : true
+  title : "Others books by the author"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique
+            facere quas blanditiis."
+  book:
+    # books loop
+    - image : "images/about/b-1.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-2.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-3.jpg"
+      link : "#"
+      
+    # books loop
+    - image : "images/about/b-4.jpg"
+      link : "#"
+
+################################ Blog ###################################
+blog:
+  enable : true
+  title : "Our insights and articles"
+  subtitle : "Laboriosam eos aperiam excepturi accusamus velit repudiandae sit rem incidunt, similique facere quas blanditiis."
+  # blog post comes from 'content/blog'
+
+################################# Contact ##############################
+contact:
+  enable : true
+  title : "Contact Us"
+  subtitle : "Whether you have questions or you would just like to say hello, contact us.Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, atque!"
+  contactItem:
+    # contact Item loop
+    - title : "Contact Quickly"
+      icon : "ti-headphone-alt" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "+23-68017684"
+        
+    # contact Item loop
+    - title : "Email"
+      icon : "ti-email" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "startor@support.com"
+        
+    # contact Item loop
+    - title : "Location"
+      icon : "ti-location-pin" # themify icon pack : https://themify.me/themify-icons
+      list:
+        - listItem : "397 Lake forest drive street USA"

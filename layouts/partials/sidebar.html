@@ -1,0 +1,42 @@
+<div class="col-lg-4">
+  <div class="sidebar-widget latest-post mb-4 p-4 bg-grey">
+    <h4 class="mb-4">Latest Posts</h4>
+    {{ range first 3 (where .Site.RegularPages "Type" "post")}}
+    <div class="media border-bottom py-3">
+      <a href="{{ .Permalink }}"><img class="mr-4 post-thumb-sm" src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}"></a>
+      <div class="media-body">
+        <span class="text-sm text-muted">{{ .PublishDate.Format "January 02, 2006" }}</span>
+        <h6 class="mt-1"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h6>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="sidebar-widget category mb-4 p-4 bg-grey">
+    <h4 class="mb-4">Catgeory</h4>
+    <ul class="list-unstyled">
+      {{- if isset .Site.Taxonomies "categories" }}
+      {{- if not (eq (len .Site.Taxonomies.categories) 0) }}
+      <ul class="list-unstyled">
+        {{- range $name, $items := .Site.Taxonomies.categories }}
+        <li>
+          <a href="{{ "categories/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | title | humanize }}<span class="ml-2">({{len $items}})</span></a>
+        </li>
+        {{- end }}
+      </ul>
+      {{- end }}
+      {{- end }}
+    </ul>
+  </div>
+
+  <div class="sidebar-widget tags mb-3">
+    <h4 class="mb-4">Tags</h4>
+    {{- if isset .Site.Taxonomies "tags" }}
+    {{- if not (eq (len .Site.Taxonomies.tags) 0) }}
+    {{- range $name, $items := .Site.Taxonomies.tags }}
+    <a href="{{ "tags/" | relLangURL }}{{ $name | urlize | lower }}">{{ $name | humanize }}</a>
+    {{- end }}
+    {{- end }}
+    {{- end }}
+  </div>
+</div>

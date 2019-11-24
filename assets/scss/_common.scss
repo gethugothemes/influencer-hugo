@@ -1,0 +1,204 @@
+/*--------------------
+Common Styles
+-----------------*/
+
+.section-heading {
+    margin-bottom: 80px;
+}
+
+.section {
+    position: relative;
+    padding: 8.125rem 0;
+}
+
+@media (min-width:768px) {
+    .section {
+        padding: 7.5rem 0
+    }
+}
+
+.section-top {
+    padding-top: 8.125rem;
+}
+
+.section-bottom {
+    padding-bottom: 8.125rem;
+}
+
+@media (min-width:768px) {
+    .section-top {
+        padding-top: 10.3125rem
+    }
+}
+
+.slick-slide {
+    outline: 0;
+}
+
+.bg-grey {
+    background: #F4F7FC;
+}
+
+.text-color {
+    color: $primary-color;
+}
+
+/*-------------------
+  BUTTONS STYLE
+----------------=----*/
+
+.btn {
+    font-weight: 700;
+    position: relative;
+    text-transform: uppercase;
+    padding: 15px 40px;
+    border-radius: 35px;
+    font-size: 14px;
+    font-family: $secondary-font;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.2s ease-in-out;
+    -webkit-transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -ms-transform: translateY(0px);
+    -o-transform: translateY(0px);
+    transform: translateY(0px);
+    -webkit-transition: all 0.3s ease-in-out !important;
+    -moz-transition: all 0.3s ease-in-out !important;
+    -ms-transition: all 0.3s ease-in-out !important;
+    -o-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+
+
+}
+
+.btn:focus {
+    box-shadow: none !important
+}
+
+
+.btn-main {
+    border-color: $secondary-color;
+    color: $light;
+    background: $secondary-color;
+
+    &:hover {
+        background: $primary-color;
+        color: $light;
+        border-color: $primary-color;
+    }
+}
+
+
+.btn-main-2 {
+    background: $primary-color;
+    color: $light;
+    border-color: $primary-color;
+
+    &:hover {
+        background: $secondary-color;
+        color: $light;
+        border-color: $secondary-color;
+    }
+}
+
+
+.btn-white {
+    background: $light !important;
+    color: $primary-color;
+    border-color: $light;
+}
+
+
+.btn-border-tp {
+    border-color: $secondary-color;
+    background: transparent;
+    color: $secondary-color;
+
+    &:hover {
+        background: $secondary-color;
+        color: $light !important;
+    }
+}
+
+
+.btn-small {
+    padding: 12px 22px;
+    font-size: 13px;
+}
+
+/*------------------------
+ BACKGROUND
+----------------------------*/
+
+a {
+    color: $black;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover,
+a:focus {
+    outline: none;
+    text-decoration: none;
+    color: $primary-color;
+}
+
+.border-top {
+    border-top: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08) !important;
+}
+
+
+.text-color-2 {
+    color: $secondary-color;
+}
+
+
+.text-lg {
+    font-size: 40px;
+    line-height: 1.4;
+}
+
+.text-md {
+    font-size: 32px;
+    line-height: 1.3;
+}
+
+.letter-spacing {
+    letter-spacing: 2px;
+}
+
+.text-sm {
+    font-size: 14px;
+    color: $primary-color;
+}
+
+
+
+@include mobile-xs {
+    .btn {
+        padding: 15px 37px
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+
+    .comment-area {
+        .media {
+            display: block;
+        }
+
+        .media-body {
+            margin-top: 20px;
+        }
+    }
+
+}

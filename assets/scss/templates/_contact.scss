@@ -1,0 +1,33 @@
+
+/*---------------------------
+CONTACT PAGE
+-----------------------------*/
+
+.contact-info-block{
+    padding: 60px 20px;
+    background: $light;
+
+     h4{
+        margin-bottom: 0px;
+    }
+    i{
+        font-size: 40px;
+        margin-bottom: 20px;
+        display: block;
+        color: $primary-color;
+    }
+}
+
+
+.form-control{
+    border:1px solid rgba(0,0,0,0.04);
+    box-shadow: 12px 7px 90px 0 rgba(110,123,131,.1);
+    background: $light;
+    height:60px;
+    padding-left: 15px;
+}
+
+.form-control:focus,.form-control:hover{
+    border-color: $primary-color;
+    box-shadow: none;
+}
