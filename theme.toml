@@ -3,7 +3,7 @@ license = "MIT"
 licenselink = "https://github.com/themefisher/influencer-hugo/blob/master/LICENSE"
 description = "Ecommerce Template"
 homepage = "https://gethugothemes.com/shop/"
-tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher"]
+tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher", "one page"]
 features = ["Ecommerce", "responsive", "bootstrap-4"]
 min_version = "0.58.0"
 
