@@ -1,0 +1,10 @@
+<div class="blog-item card mb-4 border-0">
+  <img src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}" class="img-fluid w-100">
+  <div class="blog-item-content p-4">
+    <div class="blog-meta mb-2">
+      <span><i class="ti-time mr-2"></i>{{ .PublishDate.Format "02 Jan, 2006" }}</span> <i class="ti-user ml-2"></i>
+      {{ .Params.Author | title }}
+    </div>
+    <h4 class="mt-2 mb-3"><a href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h4>
+  </div>
+</div>
