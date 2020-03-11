@@ -13,14 +13,8 @@ image: "images/blog/blog-1.jpg"
 description: "this is meta description"
 
 # taxonomies
-categories: 
-  - "Go Language"
-tags:
-  - "Photos"
-  - "HTML"
-  - "Python"
-  - "New"
-
+categories: ["Go Language"]
+tags: ["Photos", "HTML", "Python", "New"]
 # post type
 type: "post"
 ---
