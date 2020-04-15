@@ -5,7 +5,7 @@ description = "Ecommerce Template"
 homepage = "https://gethugothemes.com/products/influencer-hugo/"
 tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher", "one page"]
 features = ["Ecommerce", "responsive", "bootstrap-4"]
-min_version = "0.58.0"
+min_version = "0.62.0"
 
 [author]
   name = "Themefisher"
