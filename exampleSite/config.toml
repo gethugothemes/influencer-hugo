@@ -36,32 +36,32 @@ paginate = 6
   [[menu.main]]
   name = "About"
   URL = "book"
-  weight = 2
+  weight = 1
   
   [[menu.main]]
   name = "Chapter"
   URL = "chapter"
-  weight = 3
+  weight = 2
   
   [[menu.main]]
   name = "Reviews"
   URL = "review"
-  weight = 4
+  weight = 3
   
   [[menu.main]]
   name = "Author"
   URL = "author"
-  weight = 5
+  weight = 4
   
   [[menu.main]]
   name = "Blog"
   URL = "blog"
-  weight = 6
+  weight = 5
   
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 7
+  weight = 6
 
 
 #################### default parameters ################################
