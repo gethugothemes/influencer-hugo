@@ -72,7 +72,7 @@ home = "Home"
 description = "This is meta description"
 author = "Themefisher"
 # Google Analitycs
-googleAnalitycsID = "Your ID"
+googleAnalitycsID = "" # Your ID
 # copyright
 copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
 
