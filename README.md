@@ -25,7 +25,7 @@ Navigate to your themes folder in your Hugo site and use the following commands:
 ```
 $ mkdir themes
 $ cd themes
-$ git clone git@github.com:themefisher/influencer-hugo.git
+$ git clone https://github.com/themefisher/Influencer-hugo.git
 ```
 
 ## Main features
