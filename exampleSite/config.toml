@@ -74,7 +74,7 @@ author = "Themefisher"
 # Google Analitycs
 googleAnalitycsID = "" # Your ID
 # copyright
-copyright = "Copyright &copy; 2019 [GetHugoThemes](https://gethugothemes.com) All Rights Reserved"
+copyright = "Copyright &copy; 2021 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
 
 # Preloader
 [params.preloader]

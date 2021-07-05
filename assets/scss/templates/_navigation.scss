@@ -3,6 +3,14 @@
    MENU
 ----------------------*/
 
+.navbar-toggler {
+    font-size: 26px;
+}
+
+.navbar-toggler:focus, .navbar-toggler:hover {
+    outline: 0;
+}
+
 .main-navigation{
     z-index: 9999;
     padding: 10px 0px;
@@ -124,7 +132,8 @@
     }
 }
 
-.navbar-collapse.collapse.show{
-     background: $light;
-     padding: 30px 0px;
+@include desktop {
+    .navbar-collapse {
+        background: $light;
+    }
 }

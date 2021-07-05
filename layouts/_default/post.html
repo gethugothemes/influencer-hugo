@@ -1,5 +1,5 @@
 <div class="blog-item card mb-4 border-0">
-  <img src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}" class="img-fluid w-100">
+  <a href="{{ .Permalink }}" title="{{ .Title | markdownify }}"><img src="{{ .Params.Image | relURL }}" alt="{{ .Title | markdownify }}" class="img-fluid w-100"></a>
   <div class="blog-item-content p-4">
     <div class="blog-meta mb-2">
       <span><i class="ti-time mr-2"></i>{{ .PublishDate.Format "02 Jan, 2006" }}</span> <i class="ti-user ml-2"></i>

@@ -69,7 +69,9 @@ Common Styles
     -o-transition: all 0.3s ease-in-out !important;
     transition: all 0.3s ease-in-out !important;
 
-
+    @include tablet {
+        padding: 15px 37px
+    }
 }
 
 .btn:focus {
@@ -183,10 +185,6 @@ a:focus {
 
 
 @include mobile-xs {
-    .btn {
-        padding: 15px 37px
-    }
-
     .display-4 {
         font-size: 2rem;
     }
@@ -201,4 +199,12 @@ a:focus {
         }
     }
 
+}
+
+#snipcart-title {
+    color: white;
+}
+.snip-layout .snip-btn--highlight {
+    color: white !important;
+    @extend .btn-main;
 }
