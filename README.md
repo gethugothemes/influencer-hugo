@@ -16,7 +16,7 @@
 
 ## Demo
 
-[Live Demo](http://demo.themefisher.com/influencer-hugo/).
+[Live Demo](https://demo.gethugothemes.com/influencer/).
 
 ## Installation
 
