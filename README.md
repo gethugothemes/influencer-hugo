@@ -1,56 +1,121 @@
-<div align="center">
-<h1><a href="https://gethugothemes.com/">Influencer Hugo</a></h1>
-<img src="https://user-images.githubusercontent.com/37659754/69491097-b022d480-0eba-11ea-9a99-35c0a0e30b5c.gif" alt="screenshot" width="100%">
-</div>
+<h1 align=center>Influencer Hugo Theme | <a target="_blank" href="https://demo.gethugothemes.com/influencer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Finfluencer%2F">Page Speed (73%)</a></h1>
 
-**The images are only for demonstration purpose, Please don't use those images.**
+<p align=center>
+  <a href="https://github.com/gohugoio/hugo/releases/tag/v0.87.0" alt="Contributors">
+    <img src="https://img.shields.io/static/v1?label=min-HUGO-version&message=0.87.0&color=f00&logo=hugo" />
+  </a>
 
-## Table of Contents
+  <a href="https://github.com/gethugothemes/influencer-hugo/blob/master/LICENSE">
+    <img src="https://img.shields.io/github/license/gethugothemes/influencer-hugo" alt="license"></a>
 
-- [Demo](#demo)
-- [Installation](#installation)
-- [Main Features](#main-features)
-- [Reporting Issues](#reporting-issues)
-- [Technical Support or Questions](#technical-support-or-questions-(paid))
-- [More Hugo Themes](https://gethugothemes.com/shop/)
+  <img src="https://img.shields.io/github/languages/code-size/gethugothemes/influencer-hugo" alt="code size">
 
-## Demo
+  <a href="https://github.com/gethugothemes/influencer-hugo/graphs/contributors">
+    <img src="https://img.shields.io/github/contributors/gethugothemes/influencer-hugo" alt="contributors"></a>
 
-[Live Demo](https://demo.gethugothemes.com/influencer/).
+  <a href="https://twitter.com/intent/follow?screen_name=gethugothemes">
+    <img src="https://img.shields.io/twitter/follow/gethugothemes?style=social&logo=twitter"
+      alt="follow on Twitter"></a>
+</p>
 
-## Installation
+---
 
-Navigate to your themes folder in your Hugo site and use the following commands:
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/37659754/69491097-b022d480-0eba-11ea-9a99-35c0a0e30b5c.gif"
+    alt="screenshot" width="100%">
+</p>
 
-**Note : You must use `hugo-extended` version to compile SCSS**
+---
+## Features
+- Open graph meta tag
+- Twitter card meta tag
+- Google analytics  support
+- Onepage template
+- Css and js bundle with hugo pipe
+- Netlify settings predefined
+- Google page speed optimized ( 73% )
+- GDPR consent enabled)
 
-```
-$ mkdir themes
-$ cd themes
-$ git clone https://github.com/themefisher/Influencer-hugo.git
+
+## Local development
+
+```bash
+# clone the repository
+git clone git@github.com:gethugothemes/influencer-hugo.git
+
+# cd in the project directory
+$ cd influencer-hugo/exampleSite/
+
+# Start local dev server
+$ hugo server --themesDir ../..
 ```
 Or Check out [Full Documentation](https://docs.gethugothemes.com/influencer/?ref=github).
 
-## Main features
+## Content Management System
 
-- Bootstrap 4 Powered
-- Google Analytics
-- SEO Friendly
-- Multiple Author
-- Ecommerce Ready
-- Responsive Ready
+[![import to
+Forestry](https://assets.forestry.io/import-to-forestryK.svg)](https://app.forestry.io/quick-start?repo=gethugothemes/influencer-hugo&engine=hugo&version=0.80.0)
 
+This project has been pre-configured to work with [Forestry](https://forestry.io) a git-based CMS, [import your
+repository in Forestry](https://app.forestry.io/quick-start?repo=gethugothemes/influencer-hugo&engine=hugo&version=0.80.0) and
+you will be able to edit and preview your site ✨.
+
+Any changes you make in Forestry will be committed back to the repo and deployed if you use [Netlify](#netlify) or
+[Vercel](#vercel).
+
+## Deployment and hosting
+
+[![Deploy to
+Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gethugothemes/influencer-hugo)
+
+Follow the steps.
+
+## Prefer a video? (Hugo + Netlify + Forestry)
+Build your website with **influencer Hugo** theme by following these easy steps (No Coding Required!)
+[Video Tutorial](https://youtu.be/ResipmZmpDU).
+
+<!-- reporting issue -->
 ## Reporting Issues
+We use GitHub Issues as the official bug tracker for the influencer Template. Please Search [existing
+issues](https://github.com/gethugothemes/influencer-hugo/issues). Someone may have already reported the same problem.
+If your problem or idea has not been addressed yet, feel free to [open a new
+issue](https://github.com/gethugothemes/influencer-hugo/issues).
 
-We use GitHub Issues as the official bug tracker for the Navigator Template. Please Search [existing issues](https://github.com/themefisher/influencer-hugo/issues). It’s possible someone has already reported the same problem.
-If your problem or idea is not addressed yet, [open a new issue](https://github.com/themefisher/influencer-hugo/issues)
+## Influencer Hugo theme Powered Websites
 
-## Technical Support or Questions (Paid)
+- https://www.missingmila.com
 
-If you have questions or need help integrating the product please [contact us](mailto:mehedi@themefisher.com) instead of opening an issue.  
+View all the websites powered by Influencer Hugo theme [here](https://github.com/gethugothemes/influencer-hugo/wiki/All-Influencer-Hugo-theme-Powered-Websites). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/themefisher/influencer-hugo/discussions/174).
 
-## Premium Themes
 
-| [![Mega-Bundle-HUGO](https://gethugothemes.com/wp-content/uploads/edd/2019/09/Mega-Bundle-HUGO.png)](https://themefisher.com/products/hugo-mega-bundle/) | [![Adrian](https://gethugothemes.com/wp-content/uploads/edd/2019/12/adrian-ecommerce-template.jpg)](https://gethugothemes.com/products/adrian/) | [![Hargo](https://gethugothemes.com/wp-content/uploads/edd/2019/10/Hargo.png)](https://gethugothemes.com/products/hargo/) |
+
+<!-- licence -->
+## License
+Copyright &copy; Designed by [Themefisher](https://themefisher.com) & Developed by
+[Gethugothemes](https://gethugothemes.com)
+
+**Code License:** Released under the [MIT](https://github.com/gethugothemes/influencer-hugo/blob/master/LICENSE) license.
+
+**Image license:** The images are only for demonstration purposes. They have their licenses. We don't have permission to
+share those images.
+
+<!-- resources -->
+## Special Thanks
+- [Bootstrap](https://getbootstrap.com)
+- [Jquery](https://jquery.com)
+- [Themify Icons](https://themify.me/themify-icons)
+- [Magnific Popup](https://dimsemenov.com/plugins/magnific-popup/)
+- [Slick Slider](https://kenwheeler.github.io/slic/)
+- [Google Fonts](https://fonts.google.com/)
+- [All Contributors](https://github.com/gethugothemes/influencer-hugo/graphs/contributors)
+
+
+## Hire Us
+We are available for **Hiring** for your next HUGO project. Please, check our
+[services](https://cutt.ly/ght-service)
+
+<!-- premium themes -->
+## Premium Themes By Us
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Educenter](https://demo.gethugothemes.com/thumbnails/educenter.webp)](https://gethugothemes.com/products/reader/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/the-article.webp)](https://gethugothemes.com/products/the-article-hugo/) |
 |:---:|:---:|:---:|
-| **Hugo Mega Bundle**  | **Adrian**  | **Hargo** |
+| **Premium Theme Bundle (40+)** | **Educenter** | **The Article** |
