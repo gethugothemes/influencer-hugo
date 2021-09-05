@@ -27,14 +27,14 @@
 
 ---
 ## Features
-- Open graph meta tag
-- Twitter card meta tag
 - Google analytics  support
 - Onepage template
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
-- GDPR consent enabled
+- GDPR consent enable
 - Google page speed optimized ( 73% )
+- Open graph meta tag
+- Twitter card meta tag
 
 
 ## Local development
@@ -83,8 +83,9 @@ issue](https://github.com/gethugothemes/influencer-hugo/issues).
 ## Influencer Hugo theme Powered Websites
 
 - https://www.missingmila.com
+- https://newbestbingo.uk/
 
-View all the websites powered by Influencer Hugo theme [here](https://github.com/gethugothemes/influencer-hugo/wiki/All-Influencer-Hugo-theme-Powered-Websites). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/gethugothemes/influencer-hugo/discussions).
+View all the websites powered by Influencer Hugo theme [here](https://github.com/gethugothemes/influencer-hugo/wiki/Popular-sites-powered-by-Influencer-Hugo). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/gethugothemes/influencer-hugo/discussions/10).
 
 
 
@@ -115,6 +116,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Educenter](https://demo.gethugothemes.com/thumbnails/educenter.webp)](https://gethugothemes.com/products/reader/) | [![Bizcraft](https://demo.gethugothemes.com/thumbnails/the-article.webp)](https://gethugothemes.com/products/the-article-hugo/) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![gosaas](https://demo.gethugothemes.com/thumbnails/gosaas.webp)](https://gethugothemes.com/products/gosaas/) | [![phantom](https://demo.gethugothemes.com/thumbnails/phantom.webp)](https://gethugothemes.com/products/phantom) |
 |:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Educenter** | **The Article** |
+| **Premium Theme Bundle (40+)** | **Gosaas** | **Phantom** |
