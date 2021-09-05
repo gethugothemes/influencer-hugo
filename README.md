@@ -31,10 +31,10 @@
 - Twitter card meta tag
 - Google analytics  support
 - Onepage template
-- Css and js bundle with hugo pipe
-- Netlify settings predefined
+- CSS and Js bundle with hugo pipe
+- Netlify settings predefine
+- GDPR consent enabled
 - Google page speed optimized ( 73% )
-- GDPR consent enabled)
 
 
 ## Local development
