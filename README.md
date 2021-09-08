@@ -85,7 +85,7 @@ issue](https://github.com/gethugothemes/influencer-hugo/issues).
 - https://www.missingmila.com
 - https://newbestbingo.uk/
 
-View all the websites powered by Influencer Hugo theme [here](https://github.com/gethugothemes/influencer-hugo/wiki/Popular-sites-powered-by-Influencer-Hugo). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/gethugothemes/influencer-hugo/discussions/10).
+Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/gethugothemes/influencer-hugo/discussions/10).
 
 
 
