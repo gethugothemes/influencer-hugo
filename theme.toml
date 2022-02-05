@@ -1,7 +1,7 @@
 name = "Influencer Hugo"
 license = "MIT"
-licenselink = "https://github.com/themefisher/influencer-hugo/blob/master/LICENSE"
-description = "Ecommerce Template"
+licenselink = "https://github.com/gethugothemes/influencer-hugo/blob/master/LICENSE"
+description = "Influencer is a Hugo theme for book authors and writers. It has also Snipcart supports for order books and payments."
 homepage = "https://gethugothemes.com/products/influencer-hugo/"
 demosite = "https://demo.gethugothemes.com/influencer/"
 tags = ["Ecommerce", "bootstrap", "blog", "contact", "responsive", "gethugothemes", "clean" , "Single Product", "Minimal", "light", "google analytics", "mobile", "fast", "customizable", "white", "flex", "pages", "hugo themes", "hugo templates", "netlify", "Themefisher", "one page"]
@@ -9,5 +9,5 @@ features = ["Ecommerce", "responsive", "bootstrap-4"]
 min_version = "0.62.0"
 
 [author]
-  name = "Themefisher"
-  homepage = "https://themefisher.com/"
+  name = "Gethugothemes"
+  homepage = "https://gethugothemes.com/"
