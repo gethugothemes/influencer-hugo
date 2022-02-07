@@ -116,6 +116,6 @@ We are available for **Hiring** for your next HUGO project. Please, check our
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![gosaas](https://demo.gethugothemes.com/thumbnails/gosaas.webp)](https://gethugothemes.com/products/gosaas/) | [![phantom](https://demo.gethugothemes.com/thumbnails/phantom.webp)](https://gethugothemes.com/products/phantom) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle) | [![Hargo](https://demo.gethugothemes.com/thumbnails/hargo.webp)](https://gethugothemes.com/products/hargo/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook) |
 |:---:|:---:|:---:|
-| **Premium Theme Bundle (40+)** | **Gosaas** | **Phantom** |
+| **Premium Theme Bundle (40+)** | **Hargo** | **Logbook** |
