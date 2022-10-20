@@ -1,4 +1,7 @@
-<h1 align=center>Influencer Hugo | <a target="_blank" href="https://demo.gethugothemes.com/influencer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fdemo.gethugothemes.com%2Finfluencer%2F">Page Speed (73%)</a></h1>
+<h1 align=center>Influencer Hugo</h1>
+<p align=center>Influencer is a modern and elegant crafted responsive Hugo theme for book authors and writer </p>
+<h2 align="center"> <a target="_blank" href="https://demo.gethugothemes.com/influencer" rel="nofollow">Demo</a> | <a  target="_blank" href="https://pagespeed.web.dev/report?url=https%3A%2F%2Fdemo.gethugothemes.com%2Finfluencer%2Fsite%2F&form_factor=desktop">Page Speed (95%)</a></h2>
+
 
 <p align=center>
   <a href="https://github.com/gohugoio/hugo/releases/tag/v0.62.0" alt="Contributors">
@@ -26,13 +29,13 @@
 </p>
 
 ---
-## Features
+## Key Features
 - Google analytics  support
 - Onepage template
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
 - GDPR consent enable
-- Google page speed optimized ( 73% )
+- Google page speed optimized ( 95% )
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -83,9 +86,11 @@ issue](https://github.com/gethugothemes/influencer-hugo/issues).
 ## Influencer Hugo theme Powered Websites
 
 - https://www.missingmila.com
-- https://newbestbingo.uk/
+- http://i-love-git.com/
+- https://cryptoforconservatives.com/
+- https://www.heribertorangel.com/
 
-Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://github.com/gethugothemes/influencer-hugo/discussions/10).
+View all the websites powered by Influencer Hugo [here](https://gethugothemes.com/showcase). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://gethugothemes.com/showcase).
 
 
 
@@ -118,6 +123,6 @@ If you need to customize the theme or complete website development from scratch,
 
 <!-- premium themes -->
 ## Premium Themes By Us
-| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp)](https://gethugothemes.com/bundle/?utm_source=influencer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Hargo](https://demo.gethugothemes.com/thumbnails/hargo.webp)](https://gethugothemes.com/products/hargo/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook) |
+| [![Mega-Bundle-HUGO](https://demo.gethugothemes.com/thumbnails/bundle.webp?)](https://gethugothemes.com/bundle/?utm_source=influencer_github&utm_medium=referral&utm_campaign=github_theme_readme) | [![Hargo](https://demo.gethugothemes.com/thumbnails/hargo.webp)](https://gethugothemes.com/products/hargo/) | [![Logbook](https://demo.gethugothemes.com/thumbnails/logbook.webp)](https://gethugothemes.com/products/logbook) |
 |:---:|:---:|:---:|
-| **Get 50+ Premium Hugo Themes Bundle** | **Hargo** | **Logbook** |
+| **Get 55+ Premium Hugo Themes Bundle** | **Hargo** | **Logbook** |
