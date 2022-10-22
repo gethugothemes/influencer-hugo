@@ -35,7 +35,7 @@
 - CSS and Js bundle with hugo pipe
 - Netlify settings predefine
 - GDPR consent enable
-- Google page speed optimized ( 95% )
+- Google page speed optimized
 - Open graph meta tag
 - Twitter card meta tag
 
@@ -83,14 +83,15 @@ issues](https://github.com/gethugothemes/influencer-hugo/issues). Someone may ha
 If your problem or idea has not been addressed yet, feel free to [open a new
 issue](https://github.com/gethugothemes/influencer-hugo/issues).
 
-## Influencer Hugo theme Powered Websites
+## Submit Your Website To Our Showcase
 
-- https://www.missingmila.com
-- http://i-love-git.com/
-- https://cryptoforconservatives.com/
-- https://www.heribertorangel.com/
+Are you using Influencer Hugo theme? Submit it to our [showcase](https://gethugothemes.com/showcase). 
 
-View all the websites powered by Influencer Hugo [here](https://gethugothemes.com/showcase). Want to submit your own website powered by Influencer Hugo theme? You can submit it [here](https://gethugothemes.com/showcase).
+Our showcase aims to demonstrate to the world what amazing websites people like you have created utilizing our Hugo themes and to show that Hugo has tremendous capabilities as a Static Site Generator. 
+
+View all the websites powered by Influencer Hugo from [here](https://gethugothemes.com/showcase?theme=influencer). 
+
+[Submit](https://gethugothemes.com/showcase?submit=show) your Influencer Hugo powered website.
 
 
 
