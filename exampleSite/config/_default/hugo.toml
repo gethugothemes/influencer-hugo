@@ -1,0 +1,7 @@
+######################## default configuration ####################
+baseURL = "https://demo.gethugothemes.com/influencer/examplesite/"
+languageCode = "en-us"
+title = "Influencer"
+theme = "influencer-hugo"
+summaryLength = "10"
+pagination.pagerSize = 6

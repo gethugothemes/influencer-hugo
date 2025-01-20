@@ -5,7 +5,7 @@
         <div class="footer-widget">
           <a class="mb-4 d-inline-block" href="{{ .Site.BaseURL }}">
             {{ if .Site.Params.logo }}
-            <img src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}">
+            {{ partial "image.html" (dict "Src" .Site.Params.logo "Alt" "Image" ) }}
             {{ else }}
             <h2 class="mb-0 text-dark">{{ .Site.Title }}</h2>
             {{ end }}
@@ -34,7 +34,7 @@
       </div>
       <div class="col-lg-6">
         <div class="footer-btm-menu text-lg-right">
-          <img src="{{`images/about/cards-3.png` | relURL }}" alt="" class="img-fluid">
+          {{ partial "image.html" (dict "Src" "images/about/cards-3.png" "Alt" "Image" "Class" "img-fluid" ) }}
         </div>
       </div>
     </div>

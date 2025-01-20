@@ -1,7 +1,7 @@
 {{ if .Site.Params.preloader.enable }}
 <div class="preloader">
   {{ with .Site.Params.preloader.preloader }}
-  <img src="{{ . | absURL }}" alt="preloader">
+  {{ partial "image.html" (dict "Src" . "Alt" "preloader" ) }}
   {{ end }}
 </div>
 {{ end }}

@@ -25,7 +25,7 @@
       {{ if .image }}
       <div class="col-lg-5 d-none d-lg-block">
         <div class="banner-img pt-5">
-          <img src="{{ .image | relURL }}" alt="{{ .title | markdownify }}" class="img-fluid w-100">
+          {{ partial "image.html" (dict "Src" .image "Alt" "image" "Class" "img-fluid w-100" ) }}
         </div>
       </div>
       {{ end }}
@@ -43,14 +43,15 @@
     <div class="row">
       <div class="col-lg-5">
         <div class="book-preview">
-          <img src="{{`images/about/kindle.png` | relURL}}" class="background-device img-fluid" alt="device">
+          {{ partial "image.html" (dict "Src" "images/about/kindle.png" "Alt" "device" "Class" "background-device img-fluid" ) }}
           <div class="book-pages">
             {{ range .pagePreview }}
             <div class="item">
-              <img src="{{ .image | relURL }}" alt="page-preview" class="img-fluid">
+              {{ partial "image.html" (dict "Src" .image "Alt" "page-preview" "Class" "img-fluid" ) }}
               <div class="overlay">
-                <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview"><i
-                    class="ti-fullscreen"></i></a>
+                <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview">
+                  <i class="ti-fullscreen"></i>
+                </a>
               </div>
             </div>
             {{ end }}
@@ -172,7 +173,7 @@
         <div class="test-item">
           <div class="testimonial-item-content">
             <div class="test-author-thumb mb-4">
-              <img src="{{ .image | relURL }}" alt="Testimonial author" class="img-fluid">
+              {{ partial "image.html" (dict "Src" .image "Alt" "Testimonial author" "Class" "img-fluid" ) }}
               <div class="test-author-info mt-4">
                 <ul class="rating list-inline mb-0 {{ .rating }}">
                   <li class="list-inline-item mx-0"><i class="ti-star"></i></li>
@@ -229,7 +230,7 @@
 
       <div class="col-lg-6 col-md-6">
         <div class="mt-5 mt-lg-0">
-          <img src="{{ .image | relURL }}" alt="" class="img-fluid w-100">
+          {{ partial "image.html" (dict "Src" .image "Alt" "Image" "Class" "img-fluid w-100" ) }}
         </div>
       </div>
     </div>
@@ -246,7 +247,7 @@
     <div class="row align-items-center">
       <div class="col-lg-5">
         <div class="about-img">
-          <img src="{{ .image | relURL }}" alt="{{ .name }}" class="img-fluid w-100">
+          {{ partial "image.html" (dict "Src" .image "Alt" .name "Class" "img-fluid w-100" ) }}
         </div>
       </div>
 
@@ -257,7 +258,7 @@
           {{ .content | markdownify }}
 
           {{ if .signature }}
-          <img src="{{ .signature | relURL }}" alt="" class="img-fluid">
+          {{ partial "image.html" (dict "Src" .signature "Alt" "Image" "Class" "img-fluid" ) }}
           {{ end }}
         </div>
       </div>
@@ -285,7 +286,7 @@
       <div class="col-lg-3 col-sm-6">
         <div class="award-block text-center p-4 border mb-4">
           <h5 class="mb-3">{{ .title | markdownify }}</h5>
-          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          {{ partial "image.html" (dict "Src" .image "Alt" "Image" "Class" "img-fluid" ) }}
         </div>
       </div>
       {{ end }}
@@ -313,7 +314,7 @@
       {{ range .book }}
       <div class="col-lg-3 col-md-6 col-sm-6">
         <div class="book-item mb-4 mb-lg-0">
-          <img src="{{ .image | relURL }}" alt="" class="img-fluid">
+          {{ partial "image.html" (dict "Src" .image "Alt" "Image" "Class" "img-fluid" ) }}
           <a href="{{ .link | safeURL }}" class="hover-item">
             <i class="ti-link"></i>
           </a>
@@ -348,7 +349,7 @@
       {{ end }}
     </div>
     <div class="text-center mt-5">
-      <a href="/blog" class="btn btn-main">All Post</a>
+      <a href="{{ .Site.BaseURL | absURL }}blog/" class="btn btn-main">All Post</a>
     </div>
   </div>
 </section>
