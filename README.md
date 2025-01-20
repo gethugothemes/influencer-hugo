@@ -52,7 +52,7 @@ git clone git@github.com:gethugothemes/influencer-hugo.git
 $ npm run project-setup
 
 # install dependency
-npm run install
+npm install
 
 # Start local dev server
 $ npm run dev
