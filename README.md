@@ -51,12 +51,10 @@ git clone git@github.com:gethugothemes/influencer-hugo.git
 # setup project
 $ npm run project-setup
 
-# install dependency
-npm install
-
 # Start local dev server
 $ npm run dev
 ```
+
 Or Check out [Full Documentation](https://docs.gethugothemes.com/influencer/?ref=github).
 
 
