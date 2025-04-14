@@ -144,7 +144,7 @@ a {
 
 a:hover,
 a:focus {
-    outline: none;
+    outline-color: transparent;
     text-decoration: none;
     color: $primary-color;
 }
