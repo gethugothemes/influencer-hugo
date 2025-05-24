@@ -16,9 +16,10 @@
           </div>
           <p class="mb-4">{{ .content | markdownify }}</p>
           <button class="snipcart-add-item btn btn-main mt-2" data-item-id="1"
-          data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}" data-item-price="{{ .price }}" data-item-url="/">
-          Purchase now <i class="ti-angle-right ml-3"></i>
-        </button>
+            data-item-name="{{ .title | markdownify }}" data-item-image="{{ .image | absURL }}"
+            data-item-price="{{ .price }}" data-item-url="/">
+            Purchase now <i class="ti-angle-right ml-3"></i>
+          </button>
         </div>
       </div>
 
@@ -49,6 +50,7 @@
             <div class="item">
               {{ partial "image.html" (dict "Src" .image "Alt" "page-preview" "Class" "img-fluid" ) }}
               <div class="overlay">
+                {{ partial "process-image.html" (dict "Src" .image) }}
                 <a href="{{ .image | relURL }}" class="popup-gallery img-fluid" data-title="Preview">
                   <i class="ti-fullscreen"></i>
                 </a>
@@ -344,7 +346,7 @@
     <div class="row">
       {{ range first 3 (where .Site.RegularPages "Type" "post")}}
       <div class="col-lg-4 col-md-6 col-sm-6">
-      {{ .Render "post"}}
+        {{ .Render "post"}}
       </div>
       {{ end }}
     </div>

@@ -11,6 +11,10 @@ googleAnalitycsID = "" # Your ID
 # copyright
 copyright = "Copyright &copy; 2021 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 ############################# Plugins ##############################
 [params.plugins]
