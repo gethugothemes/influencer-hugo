@@ -1,33 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>New on Influencer</title>
-    <link>http://localhost:1313/influencer/examplesite/tags/new/</link>
-    <description>Recent content in New on Influencer</description>
-    <generator>Hugo</generator>
-    <language>en-us</language>
-    <lastBuildDate>Sat, 23 Nov 2019 15:28:43 +0600</lastBuildDate>
-    <atom:link href="http://localhost:1313/influencer/examplesite/tags/new/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Awesome Blog Post</title>
-      <link>http://localhost:1313/influencer/examplesite/blog/blog-post-2/</link>
-      <pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate>
-      <guid>http://localhost:1313/influencer/examplesite/blog/blog-post-2/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel&#xA;nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,&#xA;nam voluptate in beatae.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Awesome Blog Post</title>
-      <link>http://localhost:1313/influencer/examplesite/blog/blog-post-3/</link>
-      <pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate>
-      <guid>http://localhost:1313/influencer/examplesite/blog/blog-post-3/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel&#xA;nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,&#xA;nam voluptate in beatae.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>My Awesome Blog Post</title>
-      <link>http://localhost:1313/influencer/examplesite/blog/blog-post/</link>
-      <pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate>
-      <guid>http://localhost:1313/influencer/examplesite/blog/blog-post/</guid>
-      <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel&#xA;nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,&#xA;nam voluptate in beatae.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>New on Influencer</title><link>/tags/new/</link><description>Recent content in New on Influencer</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 23 Nov 2019 15:28:43 +0600</lastBuildDate><atom:link href="/tags/new/index.xml" rel="self" type="application/rss+xml"/><item><title>My Awesome Blog Post</title><link>/blog/blog-post-2/</link><pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate><guid>/blog/blog-post-2/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
+nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
+nam voluptate in beatae.&lt;/p></description></item><item><title>My Awesome Blog Post</title><link>/blog/blog-post-3/</link><pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate><guid>/blog/blog-post-3/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
+nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
+nam voluptate in beatae.&lt;/p></description></item><item><title>My Awesome Blog Post</title><link>/blog/blog-post/</link><pubDate>Sat, 23 Nov 2019 15:28:43 +0600</pubDate><guid>/blog/blog-post/</guid><description>&lt;p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus natus, consectetur? Illum libero vel
+nihil nisi quae, voluptatem, sapiente necessitatibus distinctio voluptates, iusto qui. Laboriosam autem,
+nam voluptate in beatae.&lt;/p></description></item></channel></rss>

@@ -1,6 +1,8 @@
 # production
 **/public
 **/resources
+public
+resources
 
 #misc
 .DS_Store

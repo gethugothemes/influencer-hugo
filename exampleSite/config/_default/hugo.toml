@@ -1,5 +1,5 @@
 ######################## default configuration ####################
-baseURL = "https://demo.gethugothemes.com/influencer/examplesite/"
+baseURL = "/"
 languageCode = "en-us"
 title = "Influencer"
 theme = "influencer-hugo"
