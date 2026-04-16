@@ -1,8 +1,8 @@
 {{ define "main" }}
 
 <!-- Banner -->
-{{ if .Site.Data.homepage.banner.enable }}
-{{ with .Site.Data.homepage.banner }}
+{{ if hugo.Data.homepage.banner.enable }}
+{{ with hugo.Data.homepage.banner }}
 <section class="banner-main py-7" id="banner">
   <div class="container">
     <div class="row justify-content-between">
@@ -37,8 +37,8 @@
 {{ end }}
 
 <!-- Book preview -->
-{{ if .Site.Data.homepage.preview.enable }}
-{{ with .Site.Data.homepage.preview }}
+{{ if hugo.Data.homepage.preview.enable }}
+{{ with hugo.Data.homepage.preview }}
 <section class="section" id="book">
   <div class="container">
     <div class="row">
@@ -85,8 +85,8 @@
 {{ end }}
 
 <!--Services -->
-{{ if .Site.Data.homepage.service.enable }}
-{{ with .Site.Data.homepage.service }}
+{{ if hugo.Data.homepage.service.enable }}
+{{ with hugo.Data.homepage.service }}
 <section class="pt-4 section-bottom" id="service">
   <div class="container">
     <div class="row align-items-center">
@@ -106,8 +106,8 @@
 {{ end }}
 
 <!-- Quote -->
-{{ if .Site.Data.homepage.quote.enable }}
-{{ with .Site.Data.homepage.quote }}
+{{ if hugo.Data.homepage.quote.enable }}
+{{ with hugo.Data.homepage.quote }}
 <section class="section bg-grey" id="quote">
   <div class="container">
     <div class="row justify-content-center">
@@ -128,8 +128,8 @@
 {{ end }}
 
 <!-- Chapter -->
-{{ if .Site.Data.homepage.chapters.enable }}
-{{ with .Site.Data.homepage.chapters }}
+{{ if hugo.Data.homepage.chapters.enable }}
+{{ with hugo.Data.homepage.chapters }}
 <section class="section chapter" id="chapter">
   <div class="container">
     <div class="row">
@@ -156,8 +156,8 @@
 {{ end }}
 
 <!-- Review-->
-{{ if .Site.Data.homepage.reviews.enable }}
-{{ with .Site.Data.homepage.reviews }}
+{{ if hugo.Data.homepage.reviews.enable }}
+{{ with hugo.Data.homepage.reviews }}
 <section class="section-bottom testimonial" id="review">
   <div class="container">
     <div class="row justify-content-center">
@@ -200,8 +200,8 @@
 {{ end }}
 
 <!-- Device feature -->
-{{ if .Site.Data.homepage.devices.enable }}
-{{ with .Site.Data.homepage.devices }}
+{{ if hugo.Data.homepage.devices.enable }}
+{{ with hugo.Data.homepage.devices }}
 <section class="feature-home section" id="device">
   <div class="container">
     <div class="row align-items-center">
@@ -242,8 +242,8 @@
 {{ end }}
 
 <!-- About Author -->
-{{ if .Site.Data.homepage.author.enable }}
-{{ with .Site.Data.homepage.author }}
+{{ if hugo.Data.homepage.author.enable }}
+{{ with hugo.Data.homepage.author }}
 <section class="about section" id="author">
   <div class="container">
     <div class="row align-items-center">
@@ -271,8 +271,8 @@
 {{ end }}
 
 <!-- Awards -->
-{{ if .Site.Data.homepage.awards.enable }}
-{{ with .Site.Data.homepage.awards }}
+{{ if hugo.Data.homepage.awards.enable }}
+{{ with hugo.Data.homepage.awards }}
 <section id="clients-logo-section" class="section-top" id="awards">
   <div class="container">
     <div class="row justify-content-center">
@@ -299,8 +299,8 @@
 {{ end }}
 
 <!-- Others books -->
-{{ if .Site.Data.homepage.otherBooks.enable }}
-{{ with .Site.Data.homepage.otherBooks }}
+{{ if hugo.Data.homepage.otherBooks.enable }}
+{{ with hugo.Data.homepage.otherBooks }}
 <section class="section others-book" id="otherBooks">
   <div class="container">
     <div class="row justify-content-center">
@@ -330,10 +330,10 @@
 {{ end }}
 
 <!-- Latest blog -->
-{{ if .Site.Data.homepage.blog.enable }}
+{{ if hugo.Data.homepage.blog.enable }}
 <section class="section blog-home border-top" id="blog">
   <div class="container">
-    {{ with .Site.Data.homepage.blog }}
+    {{ with hugo.Data.homepage.blog }}
     <div class="row justify-content-center">
       <div class="col-lg-6">
         <div class="section-heading text-center">
@@ -358,8 +358,8 @@
 {{ end }}
 
 <!-- Contact -->
-{{ if .Site.Data.homepage.contact.enable }}
-{{ with .Site.Data.homepage.contact }}
+{{ if hugo.Data.homepage.contact.enable }}
+{{ with hugo.Data.homepage.contact }}
 <section class="section contact bg-grey" id="contact">
   <div class="container">
     <div class="row justify-content-center">
