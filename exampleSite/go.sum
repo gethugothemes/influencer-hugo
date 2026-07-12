@@ -1,2 +1,6 @@
+github.com/gethugothemes/hugo-modules/components/open-remark v0.0.0-20260701054856-10b1d2cdc11a h1:RGDp0saW1b+TwM630kA7Kb5MzFXN5CxegFtCsEhg6dg=
+github.com/gethugothemes/hugo-modules/components/open-remark v0.0.0-20260701054856-10b1d2cdc11a/go.mod h1:GzKwmrX2i2iUd02AloSi9CbBwTI5lX2H81vAcwKWPbY=
 github.com/gethugothemes/hugo-modules/images v0.0.0-20250112030311-a0de82520a5a h1:plU1FeSAMf40PImz/atXvreAslQv2V8iv1NUZljJXrE=
 github.com/gethugothemes/hugo-modules/images v0.0.0-20250112030311-a0de82520a5a/go.mod h1:FKliP3qOW9diIcQeLtyZ0Hdhg3PL8bdAkC/6O+XtU90=
+github.com/gethugothemes/hugo-modules/images v0.0.0-20260701054856-10b1d2cdc11a h1:45dDjsFlAsEc4KtQ6ve0JT9nh8f7cwWiNCpA5DF+09c=
+github.com/gethugothemes/hugo-modules/images v0.0.0-20260701054856-10b1d2cdc11a/go.mod h1:FKliP3qOW9diIcQeLtyZ0Hdhg3PL8bdAkC/6O+XtU90=

@@ -27,6 +27,12 @@
               {{ end }}
             </ul>
           </div>
+          <!-- comments -->
+          {{ if .Site.Params.open_remark.enable }}
+          <div class="col-lg-12 mb-5">
+            {{ partial "open-remark.html" . }}
+          </div>
+          {{ end }}
         </div>
       </div>
       {{ partial "sidebar.html" . }}

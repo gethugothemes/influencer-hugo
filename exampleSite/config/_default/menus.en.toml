@@ -1,31 +1,31 @@
 
 [[main]]
 name = "About"
-URL = "book"
+url = "book"
 weight = 1
 
 [[main]]
 name = "Chapter"
-URL = "chapter"
+url = "chapter"
 weight = 2
 
 [[main]]
 name = "Reviews"
-URL = "review"
+url = "review"
 weight = 3
 
 [[main]]
 name = "Author"
-URL = "author"
+url = "author"
 weight = 4
 
 [[main]]
 name = "Blog"
-URL = "blog"
+url = "blog"
 weight = 5
 
 [[main]]
 name = "Contact"
-URL = "contact"
+url = "contact"
 weight = 6
 

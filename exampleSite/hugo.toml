@@ -54,6 +54,12 @@ enable = true
 enable = true
 expire_days = 2
 
+# OpenRemark Comments
+[params.open_remark]
+enable = true
+site_key = "cmqnb3wd5000104kww7862ku4" # your site key from the OpenRemark dashboard
+embed_url = "https://open-remark.zeon.studio/embed.js" # OpenRemark embed.js URL | Make sure it didn't change
+
 ############################# Footer ########################
 [params.footer]
 content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
